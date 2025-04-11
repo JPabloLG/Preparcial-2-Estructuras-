@@ -3,7 +3,7 @@ package co.edu.uniquindio.poo.Pregunta_5;
 import java.util.Stack;
 
 public class BalanceoSimbolos {
-    public static boolean estaBalanceado(String expresion) {
+    public boolean estaBalanceado(String expresion) {
         Stack<Character> pila = new Stack<>();
 
         for (char c : expresion.toCharArray()) {
