@@ -48,4 +48,12 @@ public class ListaSimple {
         }
         temp.siguiente = null;
     }
+
+    public Nodo getCabeza() {
+        return cabeza;
+    }
+
+    public void setCabeza(Nodo cabeza) {
+        this.cabeza = cabeza;
+    }
 }
